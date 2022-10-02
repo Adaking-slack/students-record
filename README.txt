@@ -1,3 +1,12 @@
+1. When a function is declared as VIEW, it means that the function can be seen, but cannot be modified. A pure function on the otherhand cannot be read or changed
+
+2. A Payable Function is a special type of function that can receive ether. It enables us send ether to a contract after it’s been called.  A non-payable function rejects any ether sent to it
+
+3.  the keywords immutable and constant can be used to prevent changes to their state. The distinction is that immutable variables can be set in the constructor, whereas constant variables cannot be altered after compilation.
+
+4. To write or update a state variable you need to send a transaction. On the other hand, you can read state variables, for free, without any transaction fee.
+
+
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
